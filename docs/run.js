@@ -3,4 +3,4 @@
  */
 AutoplayDetector.isAutoplaySupported(function(autoplayResult){
     document.getElementById("detector-result").innerHTML = "Inline Autoplay Support:" + autoplayResult.autoplay + " | Mute To Autoplay:" + autoplayResult.muted
-}, 600)
+}, 400)
